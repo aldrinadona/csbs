@@ -1,0 +1,813 @@
+.vehicles {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .vehicles .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 2006px;
+    position: relative;
+  }
+  
+  .vehicles .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 73px;
+    top: 109px;
+    left: 0;
+    background-color: #1e1e1e;
+  }
+  
+  .vehicles .text-wrapper {
+    left: 138px;
+    position: absolute;
+    top: 23px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .text-wrapper-2 {
+    left: 259px;
+    position: absolute;
+    top: 23px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .text-wrapper-3 {
+    position: absolute;
+    top: 23px;
+    left: 406px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .text-wrapper-4 {
+    position: absolute;
+    top: 23px;
+    left: 524px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .text-wrapper-5 {
+    position: absolute;
+    top: 23px;
+    left: 1276px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap {
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    top: 28px;
+    left: 138px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-6 {
+    position: absolute;
+    top: 23px;
+    left: 15px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .text-wrapper-7 {
+    position: absolute;
+    top: 27px;
+    left: 213px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-8 {
+    position: absolute;
+    top: 648px;
+    left: 143px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-9 {
+    top: 648px;
+    left: 990px;
+    font-size: 32px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-10 {
+    position: absolute;
+    top: 66px;
+    left: 213px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .text-wrapper-11 {
+    position: absolute;
+    top: 40px;
+    left: 1135px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .text-wrapper-12 {
+    top: 60px;
+    left: 1135px;
+    color: #000000;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap-group {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 41px;
+    left: 1112px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-13 {
+    top: 4px;
+    position: absolute;
+    left: 2px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .div-wrapper {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 61px;
+    left: 1112px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-14 {
+    top: 3px;
+    position: absolute;
+    left: 2px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 402px;
+    top: 182px;
+    left: 0;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-3 {
+    position: absolute;
+    width: 456px;
+    height: 349px;
+    top: 26px;
+    left: 879px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-15 {
+    top: 153px;
+    left: 180px;
+    font-size: 32px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-16 {
+    position: absolute;
+    top: 113px;
+    left: 137px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .buy-affordable-and {
+    position: absolute;
+    top: 189px;
+    left: 137px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .overlap-4 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 705px;
+    left: 143px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .div-2 {
+    position: absolute;
+    width: 264px;
+    height: 202px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-17 {
+    width: 90px;
+    top: 80px;
+    left: 86px;
+    font-size: 31px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-18 {
+    width: 108px;
+    top: 216px;
+    left: 12px;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-19 {
+    width: 39px;
+    top: 242px;
+    left: 12px;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .overlap-5 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 705px;
+    left: 416px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-20 {
+    width: 109px;
+    top: 216px;
+    left: 17px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-21 {
+    width: 39px;
+    top: 242px;
+    left: 17px;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .overlap-6 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 705px;
+    left: 689px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-22 {
+    width: 108px;
+    top: 216px;
+    left: 23px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-23 {
+    width: 39px;
+    top: 242px;
+    left: 22px;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .overlap-7 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 1281px;
+    left: 143px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .element {
+    position: absolute;
+    top: 1600px;
+    left: 362px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap-8 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 1281px;
+    left: 416px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-9 {
+    position: absolute;
+    width: 264px;
+    height: 284px;
+    top: 1281px;
+    left: 689px;
+  }
+  
+  .vehicles .rectangle {
+    height: 279px;
+    position: absolute;
+    width: 264px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-24 {
+    width: 90px;
+    top: 81px;
+    left: 87px;
+    font-size: 31px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-25 {
+    width: 108px;
+    top: 217px;
+    left: 24px;
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-26 {
+    width: 38px;
+    top: 246px;
+    left: 13px;
+    font-size: 16px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .overlap-group-2 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 993px;
+    left: 143px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-10 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 993px;
+    left: 416px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-11 {
+    position: absolute;
+    width: 264px;
+    height: 279px;
+    top: 993px;
+    left: 689px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-12 {
+    position: absolute;
+    width: 1440px;
+    height: 267px;
+    top: 1739px;
+    left: 0;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-13 {
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    top: 102px;
+    left: 559px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-27 {
+    position: absolute;
+    top: 100px;
+    left: 633px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .text-wrapper-28 {
+    position: absolute;
+    top: 139px;
+    left: 633px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap-14 {
+    position: absolute;
+    width: 345px;
+    height: 279px;
+    top: 705px;
+    left: 990px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-15 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 39px;
+    left: 28px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-29 {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .vector {
+    position: absolute;
+    width: 13px;
+    height: 9px;
+    top: 15px;
+    left: 261px;
+  }
+  
+  .vehicles .overlap-16 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 151px;
+    left: 28px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-30 {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap-17 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 207px;
+    left: 28px;
+    background-color: #1e1e1e;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-31 {
+    position: absolute;
+    top: 9px;
+    left: 116px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #d9d9d9;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap-18 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 95px;
+    left: 28px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-19 {
+    position: absolute;
+    width: 345px;
+    height: 549px;
+    top: 1011px;
+    left: 988px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-20 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 98px;
+    left: 28px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-21 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 477px;
+    left: 28px;
+    background-color: #1e1e1e;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .text-wrapper-32 {
+    position: absolute;
+    top: 9px;
+    left: 97px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #d9d9d9;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .vehicles .overlap-22 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 211px;
+    left: 28px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-23 {
+    position: absolute;
+    width: 289px;
+    height: 191px;
+    top: 268px;
+    left: 28px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .overlap-24 {
+    position: absolute;
+    width: 289px;
+    height: 40px;
+    top: 154px;
+    left: 28px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .vehicles .NEED-RECOMMENDATIONS {
+    position: absolute;
+    top: 29px;
+    left: 27px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .vehicles .img {
+    position: absolute;
+    width: 10px;
+    height: 14px;
+    top: 1604px;
+    left: 321px;
+  }
+  
+  .vehicles .vector-2 {
+    position: absolute;
+    width: 10px;
+    height: 14px;
+    top: 1604px;
+    left: 779px;
+  }
+  
